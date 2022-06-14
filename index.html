@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Bootcamp</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- nav  -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">Frontend Bootcamp</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#learn" class="nav-link">What You'll Learn</a>
+          </li>
+          <li class="nav-item">
+            <a href="#questions" class="nav-link">Questions</a>
+          </li>
+          <li class="nav-item">
+            <a href="#form.html" class="nav-link">Registration</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- showcase -->
+
+  <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Become a <span class="text-warning">Web developer</span></h1>
+          <p class="lead my-4">
+            We focus on teaching our students the fundamentals of the latest
+            and greatest technologies to prepare them for their first dev role
+          </p>
+
+          <!-- <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">
+            Start The Enrollment
+          </button> -->
+
+          <a href="form.html" target="_blank">
+          <button class="btn btn-primary btn-lg">
+           Start The Enrollment
+          </button></a>
+
+        </div>
+
+        <img src="img/p.jpg" alt="s" class="img-fluid w-50 d-none d-sm-block" />
+      </div>
+    </div>
+  </section>
+
+  <!-- newsletter -->
+
+  <section class="bg-primary text-light p-5">
+    <div class="container">
+      <div class="d-md-flex justify-content-between align-items-center">
+        <h3 class="mb-3 mb-md-0">Sign up for our newsletter</h3>
+        <div class="input-group news-input">
+          <input type="text" class="form-control" placeholder="Email" />
+          <button class="btn btn-dark btn-lg" type="button">Submit</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- //boxes  -->
+
+  <section class="p-5">
+    <div class="container">
+      <div class="row text-center g-4">
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <h3 class="card-title mb-3">Virtual</h3>
+              <p class="card-text">
+                As the name implies, virtual instructor-led bootcamps attempt to bring all the benefits of their in-person, instructor-led training (ILT) to the web. They are structured like the in-person events, in that they are scheduled, are live and enable learners to interact with the instructor or instructor    
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+
+          <div class="card bg-secondary text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-person-square"></i>
+              </div>
+              <h3 class="card-title mb-3">Hybrid</h3>
+              <p class="card-text">
+                Coding bootcamps are short, intense courses that aim to develop participants' skills in topics such as web development, software design, mobile app development, information technology security, and data science. They typically attract technology professionals looking tills
+                
+              </p>
+              <a href="#" class="btn btn-dark">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-people"></i>
+              </div>
+              <h3 class="card-title mb-3">people</h3>
+              <p class="card-text">
+                This year marks the 8th anniversary for the coding bootcamp industry, and the number of coding bootcamp
+                graduates continues to grow since the first bootcamps launched in 2012. Coding bootcamps are a $350
+                million industry and will graduate ~25,000 developers in 2020. </p>
+           </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- //learn section  -->
+
+  <section id="learn" class="p-5">
+
+    <div class="container">
+      <div class="row align-center justify-content-between">
+        <div class="col-md">
+          <img src="img/download.png" alt="s" class="img-fluid">
+        </div>
+
+        <div class="col-md p-5">
+          <h2>Learn the fundamentals</h2>
+          <p class="lead">In this course, we will learn the basic tools that every web page coder needs to know. We will
+            start from the ground up by learning how to implement modern web pages with HTML and CSS. We will then
+            advance to learning how to code our pages such that its components rearrange and resize themselves
+            automatically based on the size of the user’s screen. <p>You’ll be able to code up a web page that will be just
+            as useful on a mobile phone as on a desktop computer.</p>
+            
+            <a href="#"
+            class="btn btn-light mt-3">
+            <i class="bi bi-chevron-right"></i>Read More
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section id="learn" class="p-5 bg-dark text-light">
+    <div class="container">
+      <div class="row align-center justify-content-between">
+        <div class="col-md">
+          <h2>Learn the react</h2>
+          <p class="lead">ReactJS offers graceful solutions to some of front-end programming’s most persistent issues,
+            allowing you to build dynamic and interactive web apps with ease. It’s fast, scalable, flexible, powerful,
+            and has a robust developer community that’s rapidly growing. There’s never been a better time to learn
+            React.</p>
+          <p>
+            You’ll develop a strong understanding of React’s most essential concepts: JSX, class and function
+            components, props, state, lifecycle methods, and hooks. You’ll be able to combine these ideas in React’s
+            modular programming style.</p>
+          <a href="#" class="btn btn-light mt-3">
+
+            <i class="bi bi-chevron-right"></i> Read More
+          </a>
+        </div>
+        <div class="col-md">
+          <img src="img/react.svg" alt="s" class="img-fluid">
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- <question> -->
+  <section id="question" class="p-5">
+
+    <div class="container">
+      <h2 class="text-center mb-4">
+        Frequestly Questions Asked
+      </h2>
+      <div class="accordion accordion-flush" id="questions">
+        <!-- Item 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-one">
+              Do free coding bootcamps work?
+            </button>
+          </h2>
+          <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+
+              Yes. Free coding bootcamps teach many of the same concepts and skills as paid bootcamps. However, they
+              generally offer less scheduling structure and one-to-one instructor support. Students must stay
+              self-motivated and disciplined to complete coursework.
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-two">
+              Are free coding bootcamps worth it? </button>
+          </h2>
+          <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              For many learners, yes. Completing a free online coding bootcamp offers a great way to learn new skills
+              and explore your interests in a technical career without a major financial commitment.</div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-three">
+              What companies hire free coding bootcamp graduates?
+            </button>
+          </h2>
+          <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              Graduates of free coding bootcamps may find opportunities as contract web designers and developers with
+              various clients. However, companies seeking full-time software developers and programmers often prefer
+              professionals with degrees.
+            </div>
+          </div>
+        </div>
+        <!-- Item 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-four">
+              How much money can you make after a free coding bootcamp?
+
+            </button>
+          </h2>
+          <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              Free coding bootcamp graduates can pursue careers as software developers or web developers. According to
+              May 2020 BLS figures, these professionals earn median annual salaries of $110,140 and $77,200,
+              respectively. Some opportunities may require additional education or experience. </div>
+          </div>
+        </div>
+        <!-- Item 5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-five">
+              2021's Free Bootcamps for Coding
+            </button>
+          </h2>
+          <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              Free coding bootcamps offer an affordable way for students to learn software development. Many free coding
+              bootcamps cater to women and minorities. Others target low-income learners.
+
+              These programs often build computer programming experience through capstone projects and internships. They
+              prepare learners for careers in software development by teaching computer science foundations, programming
+              languages, and job readiness.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- instructions  -->
+
+  <section id="instructors" class="p-5 bg-primary">
+    <div class="container">
+      <h2 class="text-center text-white">
+        Our Instructors
+      </h2>
+      <p class="lead text-center text-white mb-5">
+        Our instructors all have 5+ years working as a web developer in the industry
+      </p>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+
+          <div class="card bg-light">
+
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="s">
+              <h3 class="card-title mb-3">
+                John Doe
+              </h3>
+              <p class="card-text">
+                My main turning point was when a marketing client called me, very angry, because their site wasn’t
+                working. The previous developers updated components using some JavaScript code, which was obsolete.
+
+                I figured out how to fix it almost on my own. That just opened the tap of dopamine in my brain. I liked
+                the sense of fulfillment. </p>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/men/15.jpg" class="rounded-circle mb-3" alt="s">
+              <h3 class="card-title mb-3">
+                Scott Morris </h3>
+              <p class="card-text">
+                Scott Morris is Skillcrush's staff writer and content producer. Like all the members of Skillcrush's
+                team, he works remotely (in his case from Napa, CA). He believes that content that's worth reading (and
+                that your audience can find!) creates brands that Before starting his career as a writer and content
+                marketer,. </p>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3" alt="s">
+              <h3 class="card-title mb-3">
+                Angelina Doe
+              </h3>
+              <p class="card-text">
+                I suggested that I should learn HTML and CSS, so I did, and I started at Codecademy in 2017.
+                In March 2020, I really wanted to become a Developer, so I had to really learn. Because of COVID-19,
+                everything was closed, so I paid for Codecademy Pro. I feel like it’s a much better way to learn because
+                you have Career Paths and Skill Paths you can follow. </p>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/women/12.jpg" class="rounded-circle mb-3" alt="s">
+              <h3 class="card-title mb-3">
+                Sara Smith.
+              </h3>
+              <p class="card-text">
+
+                After I got my master’s degree, I started working at an architecture firm. It was not what I
+                anticipated. I felt like I wasn’t getting to be creative or technical.
+
+                I had just moved to Chicago for my job and ended up getting laid off right when the pandemic hit.
+
+                I thought this was a good opportunity to take a step back and see what it was that I was missing from my
+                career. That’s when I really went all-in on Codecademy.</p> <a href="#"><i
+                    class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- contact map  -->
+  <section class="p-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md">
+          <h2 class="text-center mb-4">Contact Info</h2>
+          <ul class="list-group list-group-flush lead">
+            <li class="list-group-item"><span class="fw-bold">Main Location:</span>
+              India.</li>
+            <li class="list-group-item"><span class="fw-bold">Student Phone:</span>
+              (333) 555-5555</li>
+            <li class="list-group-item"><span class="fw-bold">
+                Enrollment Email:
+              </span>
+              enroll@frontendbc.test.</li>
+
+            <li class="list-group-item"><span class="fw-bold">
+                Student Email:
+              </span>
+              student@frontendbc.test.</li>
+
+          </ul>
+
+        </div>
+
+        <!-- map -->
+        <div class="col-md">
+
+            <div class="mapouter">
+              <div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=jalgaon%20maharashtra%20india&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                  href="https://fmovies-online.net"></a><br>
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 10px;
+                  }
+                </style><a href="https://www.embedgooglemap.net"></a>
+                <style>
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 10px;
+                  }
+                </style>
+              </div>
+              <!-- <div class="map-responsive">
+                <iframe src="" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div> -->
+            </div>
+
+
+<!-- 
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1862.5669840713533!2d75.55273910796264!3d20.987266300778373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd90e49a7fce5a3%3A0x2a69bee417fccee8!2sMahabal%20colony%2C%20Samata%20Nagar%2C%20Jalgaon%2C%20Maharashtra%20425001!5e0!3m2!1sen!2sin!4v1655111585987!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div> -->
+        </div>
+      </div>
+  </section>
+  <!-- footer   -->
+
+  <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">
+        Copyright &copy; 2022 FrontendBootCamp.com
+      </p>
+      <a href="#" class="position-absolute bottom-0 end-0 p-3">
+        <i class="bi bi-arrow-up-circle h1"></i> </a>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <!-- <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out this form and we will get back to you</p>
+          <form>
+            <div class="mb-3">
+              <label for="first-name" class="col-form-label">
+                First Name:
+              </label>
+              <input type="text" class="form-control" id="first-name" />
+            </div>
+            <div class="mb-3">
+              <label for="last-name" class="col-form-label">Last Name:</label>
+              <input type="text" class="form-control" id="last-name" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="col-form-label">Email:</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="col-form-label">Phone:</label>
+              <input type="tel" class="form-control" id="phone" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Close
+          </button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
